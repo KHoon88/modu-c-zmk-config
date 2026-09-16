@@ -28,7 +28,15 @@
         pastedown: pastedown {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp LCTRL &kp V>, <&macro_wait_time 10>, <&kp DOWN>;
+            bindings =
+                <&macro_press>,
+                <&kp LCTRL>,
+                <&macro_tap>,
+                <&kp V>,
+                <&macro_release>,
+                <&kp LCTRL>,
+                <&macro_wait_time 10>,
+                <&kp DOWN>;
 
             label = "PASTEDOWN";
         };
