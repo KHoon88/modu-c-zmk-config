@@ -60,7 +60,7 @@
 &kp LANG1     &kp A      &kp S     &kp D   &kp F   &kp G   &kp H       &kp J    &kp K      &kp L     &kp SEMI   &kp PG_UP
 &kp LSHFT     &kp Z      &kp X     &kp C   &kp V   &kp B   &kp N       &kp M    &kp COMMA  &kp DOT   &kp FSLH   &kp PG_DN
 &kp LCTRL     &kp LALT   &kp LGUI  &none   &none   &none   &none       &none    &none      &kp RALT  &kp RCTRL  &kp END
-&kp CAPSLOCK  &kp SPACE  &mo 1                             &kp DELETE  &kp RET  &mo 1      &kp B
+&kp CAPSLOCK  &kp SPACE  &mo 1                             &kp DELETE  &kp RET  &mo 2      &kp B
             >;
         };
 
@@ -77,11 +77,11 @@
 
         layer_2 {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &bootloader  &bootloader  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans       &trans       &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans       &trans       &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans       &trans       &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans       &trans       &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &bootloader  &bootloader  &trans  &trans  &trans            &trans             &trans
+&trans  &trans  &trans  &trans  &trans  &trans       &trans       &trans  &trans  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &trans
+&trans  &trans  &trans  &trans  &trans  &trans       &trans       &trans  &trans  &trans            &trans             &trans
+&trans  &trans  &trans  &trans  &trans  &trans       &trans       &trans  &trans  &trans            &trans             &trans
+&trans  &trans  &trans  &trans  &trans  &trans       &trans       &trans  &trans  &trans            &trans             &trans
 &trans  &trans  &trans                               &trans       &trans  &trans  &trans
             >;
         };
